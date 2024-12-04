@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="https://use.typekit.net/atg3vfc.css">
+    <style>
+        /* General Body Styles */
+        body {
+            background-color: #e2f1fb; /* Light gray background */
+            font-family: "futura-pt", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       .header {
+      background-color: #e2f1fb; /* light blue */
+      text-align: center;
+    }
+
+    .header img {
+      width: 500px; /* Set the width of the image*/
+      height: auto; /* Keep the aspect ratio */
+      margin-left: 100px; /* Moves the image to the right */
+    }
+    
+  
+
+   /* Navbar Section */
+    .topnav {
+      display: flex; /* Use flexbox for horizontal layout */
+      background-color: #aed1e3; /* dark blue */
+    }
+
+    .topnav a {
+      flex: 1; /* Allow the links to grow and fill the space */
+      color: #493a2d; /* brown */
+      text-align: center;
+      padding: 10px;
+      font-size: 25px;
+      text-decoration: none;
+      font-weight: bold; /* Make the text bold */
+    }
+
+    .topnav a:hover {
+      background-color: #e2f1fb; /* light blue */
+      color: #493a2d; /* brown */
+    }
+
+    /* Footer Section */
+    .footer {
+      background-color: #e2f1fb;
+      padding: 10px;
+      text-align: center;
+    }
+
+        /* Section Styles */
+        .section {
+            background-color: #e2f1fb; /* Light blue */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex; /* Flexbox for layout */
+            align-items: center;
+        }
+
+        .section img {
+            width: 250px; /* Set image width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Space between image and text */
+        }
+
+        .section h2 {
+            color: #493a2d; /* Brown */
+            margin: 0;
+            font-size: 24px; /* Title size */
+        }
+
+        .section p {
+            color: #493a2d; /* Brown */
+            font-size: 16px; /* Body text size */
+        }
+    </style>
+</head>
+<body>
+
+   <!-- Header Section -->
+  <div class="header">
+    <img src="port-folio.png" alt="Portfolio Image" >
+  </div>
+  
+  <!-- Navbar Section -->
+  <div class="topnav">
+    <a href="#">PHYSICAL ART</a>
+    <a href="#">DIGITAL ART</a>
+    <a href="#">MARKETING</a>
+  </div>
+
+    <!-- First Section -->
+    <div class="section">
+        <img src="image1.jpg" alt="Description of Image 1">
+        <div>
+            <h2>Section 1 Title</h2>
+            <p>This is the body text for the first section. It provides some information about the content.</p>
+        </div>
+    </div>
+
+    <!-- Second Section -->
+    <div class="section">
+        <img src="image2.jpg" alt="Description of Image 2">
+        <div>
+            <h2>Section 2 Title</h2>
+            <p>This is the body text for the second section. It provides additional insights and details.</p>
+        </div>
+    </div>
+
+    <!-- Third Section -->
+    <div class="section">
+        <img src="image3.jpg" alt="Description of Image 3">
+        <div>
+            <h2>Section 3 Title</h2>
+            <p>This is the body text for the third section. It concludes the information presented on this page.</p>
+        </div>
+    </div>
+
+</body>
+</html>
